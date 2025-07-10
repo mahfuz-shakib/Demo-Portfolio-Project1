@@ -1,0 +1,119 @@
+
+/* Nav styles */
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color:#474747;
+}
+.secondary-bg{
+background-color: #FFF8F3;
+}
+.description{
+    font-size: 18px;
+    color:#757575;
+}
+/* header */
+.header{
+    background-image: url('../images/developer.png' ),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: left 40px top 45px , bottom 0px right 0px;
+    margin-top: -50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:50px 230px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight:bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+}
+
+/* banner styling */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 230px;
+    margin-right: 38px;
+}
+.banner-content{
+    height: 355px;
+    max-width: 585px;  
+}
+.banner-greeting{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+    margin-top: -30px;
+}
+.banner-des-margin{
+    margin-bottom: 30px;
+}
+.banner-contact{
+    margin-left: 30px;
+}
+.banner-profile-photo{
+    height: 675px;
+    width: 585px;
+}
+
+.about{
+    padding:131px 156px;
+    margin:130px 230px;
+    text-align: center;
+}
+.about-content{
+    background-color: white;
+}
+.section-title{
+    font: bold;
+    font-size: 35px;
+}
+.about-items{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.about-item{
+    font-size: 20px;
+}
+.item-title{
+    color:#757575;
+}
+.item-description{
+    font: bold;
+}
